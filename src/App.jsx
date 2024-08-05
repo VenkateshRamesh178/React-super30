@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import "./index.css"
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <div className={`container ${Theme}`}>
       <Navbar Theme={Theme} setTheme={setTheme}/>
+      <Footer/>
     </div>
   )
 }

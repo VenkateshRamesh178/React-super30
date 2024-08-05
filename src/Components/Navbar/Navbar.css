@@ -11,19 +11,27 @@
     width: 160px;
     cursor: pointer;
 }
-ul{
+.navbar_list{
     flex:1;
-    list-style: none;
+    list-style:square;
     text-align: center;
-
+    border-color: black;
+    border-radius: 50px;
 }
-ul li{
+.navbar_list li{
     display: inline-block;
     margin: 10px 20px; 
     font-size: 18px;
     cursor: pointer;
-
+    transition: 0.5s;
 }
+
+.navbar_list li:hover{
+    color: aqua;
+    font-size: 21px;
+    background-color: cornflowerblue;
+}
+
 .toggle-icon{
     width: 50px;
     cursor: pointer;

@@ -16,7 +16,7 @@ const Navbar = ({Theme, setTheme}) => {
     return (
     <div className='navbar'>
         <img src={Theme=='light'?logo_light:logo_dark} alt='' className='logo'/>
-        <ul>
+        <ul className='navbar_list'>
             <li>About</li>
             <li>Menu</li>
             <li>Reviews</li>
